@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio 24</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', sans-serif;
+      background: linear-gradient(to bottom, #fffae6, #fff0f5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      color: #ff69b4;
+      font-size: 2.5em;
+      margin-bottom: 40px;
+    }
+    audio {
+      width: 80%;
+      max-width: 400px;
+      outline: none;
+    }
+    .back-button {
+      margin-top: 50px;
+      padding: 15px 30px;
+      background-color: #ffb6c1;
+      border: none;
+      border-radius: 15px;
+      font-size: 1.2em;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.2s;
+    }
+    .back-button:hover {
+      transform: scale(1.1);
+      background-color: #ff69b4;
+    }
+  </style>
+</head>
+<body>
+  <h1>درس هفت - C</h1>
+  <audio controls autoplay>
+    <source src="../audio24.mp3" type="audio/mp3">
+    Your browser does not support audio.
+  </audio>
+  <button class="back-button" onclick="window.location.href='../index.html'">
+    ⬅ Back to Library
+  </button>
+</body>
+</html>
+
